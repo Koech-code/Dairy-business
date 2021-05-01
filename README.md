@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link]( https://github.com/Koech-code/Dairy-business.git)
+[Live Demo Link]( https://github.com/Koech-code/Dairy-business/blob/master/index.js)
 
 
 ## Getting Started

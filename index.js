@@ -3,3 +3,4 @@ var totalProduction=function(shed, litres){
 }
 totalProduction("shed A ","510");
 totalProduction("shed B ","308");
+totalProduction("shed C ","486");
