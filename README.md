@@ -7,7 +7,9 @@
 
 ## I HAVE BUILT IT USING
 
-- JAVASCRIPT ONLY
+- HTML
+- CSS
+- JAVASCRIPT
  
 
 ## Live Demo
@@ -27,7 +29,7 @@ A computer with a working and up to date web browser.
 
 - Clone the repository to your folder of choice using Git (or just download all the files)
 ```
-$ git clone
+$ git clone https://github.com/Koech-code/Dairy-business.git
 
 ```
 - Open the index.html file (in the root folder) and the website should show up.
