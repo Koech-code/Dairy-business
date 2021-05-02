@@ -11,3 +11,7 @@ let sum=array.reduce(function(a,b){
 return a + b;
 }, 0);
 console.log("The total production is ",sum,"litres per day")
+
+let incomeOverTime=(selling_price,time) =>
+console.log("Your "+time+"will be"+ selling_price);
+incomeOverTime()
