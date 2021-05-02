@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dairy.css">
+</head>
+<body>
+    <p id="totalProduction"></p>
+    <P id="total"></P>
+    <p id="all"></p>
+    <p id="last"></p>
+    <p id="sum"></p>
+    <script>
+        var totalProduction=function(shed, litres){
+        //  console.log("Your production in " + shed + litres + " litres per day");
+        return "Your production in " + shed + litres + " litres per day";
+}
+ document.getElementById("totalProduction").innerHTML=totalProduction("shed A ","510");
+ document.getElementById("total").innerHTML=totalProduction("shed B ","308");
+ document.getElementById("all").innerHTML=totalProduction("shed C ","486");
+ document.getElementById("last").innerHTML=totalProduction("shed D ","572");
+ 
+ let array=[510,308,486,572];
+ let sum=array.reduce(function(a,b){
+ return a + b;
+ }, 0);
+ console.log("The total production is ",sum,"litres per day")
+// totalProduction("shed C ","486");
+// totalProduction("shed D ","572");
+    </script>
+</body>
+</html>
