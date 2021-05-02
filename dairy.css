@@ -16,3 +16,10 @@
     border: 2px solid red;
     border-radius: 8px;
 }
+.imgs{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+}
