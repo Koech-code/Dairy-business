@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link]( https://github.com/Koech-code/Dairy-business/blob/master/index.js)
+[Live Demo Link]( https://github.com/Koech-code/Dairy-business)
 
 
 ## Getting Started
