@@ -31,6 +31,8 @@ let totals=yearly.reduce(function(jan,dec){
     return jan+dec;
 }, 0);
 console.log(totals);
-var january={
-
-}
+var january=[{
+    month:"january",
+    earning:2617020
+},
+]
