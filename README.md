@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link]( https://github.com/Koech-code/Dairy-business)
+[Live Demo Link]( http://127.0.0.1:5500/dairy.html)
 
 
 ## Getting Started
