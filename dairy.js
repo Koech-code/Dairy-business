@@ -39,6 +39,6 @@
 // all
 var janTotals={
     month:"January",
-    earned:2617020,
+    earned:[2617020]
 }
-console.log(janTotals.month.earned)
+console.log(janTotals[0].earned[0])
