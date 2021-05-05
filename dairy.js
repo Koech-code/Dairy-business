@@ -36,8 +36,3 @@ var january=[{
     earning:2617020
 },
 ]
-
-var yearlyEarnings=function(month,amount){
- return "Your income for "+month+"is "+amount;   
-}
-document.getElementsById("jan").innerHTML=yearlyEarnings("January ","2617020");
