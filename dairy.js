@@ -20,19 +20,35 @@ console.log(shedA)
 document.getElementById("totalProduction").innerHTML=totalProduction("shed A ",shedA);
 console.log("The total production is "+sum+ "litres per day")
 })
-// earnings per week
-let incomeOverTime=(income,time)=>
-console.log("your "+time+"income will be "+income);
-incomeOverTime("590940 ","weekly ")
+// // earnings per week
+// let incomeOverTime=(income,time)=>
+// console.log("your "+time+"income will be "+income);
+// incomeOverTime("590940 ","weekly ")
 
-// earnings per year
-let yearlyIncome=[2617020,2448180,2617020,2532600,2617020,2532600,2617020,2617020,2532600,2617020,2532600,2617020]
-let totals=yearly.reduce(function(jan,dec){
-    return jan+dec;
-}, 0);
-console.log(totals);
-var january=[{
-    month:"january",
-    earning:2617020
-},
-]
+// // earnings per year
+// let yearlyIncome=[2617020,2448180,2617020,2532600,2617020,2532600,2617020,2617020,2532600,2617020,2532600,2617020]
+// let totals=yearly.reduce(function(jan,dec){
+//     return jan+dec;
+// }, 0);
+// console.log(totals);
+// var january=[{
+//     month:"january",
+//     earning:2617020
+// },
+// ]
+var yearly= {
+    month: ["January","February","March","April","May","June","July","August","September","October","November","December"],
+    amount: ["2617020","2448180","2617020","2532600","2617020","2532600","2617020","2617020","2532600","2617020","2532600","2617020"],
+};
+document.getElementById("jan").innerHTML ="Your income for "+yearly.month[0]+" is "+yearly.amount[0];
+document.getElementById("feb").innerHTML ="Your income for "+yearly.month[1]+" is "+yearly.amount[1];
+document.getElementById("march").innerHTML ="Your income for "+yearly.month[2]+" is "+yearly.amount[2];
+document.getElementById("april").innerHTML ="Your income for "+yearly.month[3]+" is "+yearly.amount[3];
+document.getElementById("may").innerHTML ="Your income for "+yearly.month[4]+" is "+yearly.amount[4];
+document.getElementById("jun").innerHTML ="Your income for "+yearly.month[5]+" is "+yearly.amount[5];
+document.getElementById("jul").innerHTML ="Your income for "+yearly.month[6]+" is "+yearly.amount[6];
+document.getElementById("aug").innerHTML ="Your income for "+yearly.month[7]+" is "+yearly.amount[7];
+document.getElementById("sep").innerHTML ="Your income for "+yearly.month[8]+" is "+yearly.amount[8];
+document.getElementById("oct").innerHTML ="Your income for "+yearly.month[9]+" is "+yearly.amount[9];
+document.getElementById("nov").innerHTML ="Your income for "+yearly.month[10]+" is "+yearly.amount[10];
+document.getElementById("dec").innerHTML ="Your income for "+yearly.month[11]+" is "+yearly.amount[11];
