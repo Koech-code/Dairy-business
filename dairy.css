@@ -1,11 +1,12 @@
 body{
-    background-image: url("dairy.jpg");
+    /* background-image: url("dairy.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 1000px;
     padding-top: 0px;
     width: 100%;
+    background-color: #E9CCA4;
 }
 
 .header{
@@ -32,4 +33,28 @@ body{
     justify-content: center;
     height: 200px;
     width: 200px;
+}
+.months{
+    /* display:flex; */
+    text-align: center;
+}
+.gallery{
+    width: 380px;
+    padding-top: 10px;
+    box-shadow: -2px 3px green;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.gallery1{
+    width: 380px;
+    padding-top: 10px;
+    box-shadow: 2px 3px green;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.gallery2{
+    width: 380px;
+    border-radius: 20px;
+    box-shadow: 2px 3px green;
+    padding-left: 10px;
 }
